@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "799578424291",
+    "firebase_url": "https://flutterweek3-48176.firebaseio.com",
+    "project_id": "flutterweek3-48176",
+    "storage_bucket": "flutterweek3-48176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799578424291:android:38effa5a791b8456",
+        "android_client_info": {
+          "package_name": "com.purvik.flutter_events_week3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799578424291-e602882h061irtblhe2l5igpgioi3rbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOdNFPeu7k-1hRf-YVEeu3Nn6htrJQs9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799578424291-e602882h061irtblhe2l5igpgioi3rbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
