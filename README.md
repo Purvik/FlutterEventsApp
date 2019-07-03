@@ -1,6 +1,8 @@
 # flutter_events_week3
 
-A new Flutter application to list Flutter Events
+A Flutter application to list ongoing Flutter Events from world wide.
+
+## Project Details
 
 ## Getting Started
 

@@ -14,6 +14,7 @@ class FirestoreDatabase {
       'city' : event.city,
       'text' : event.textMessage,
       'eventDate' : event.eventDate,
+      'eventUrl' : event.eventUrl,
     }).then((value) {
 
     }).catchError((e) {

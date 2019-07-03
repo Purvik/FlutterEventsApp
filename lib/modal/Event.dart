@@ -39,7 +39,8 @@ class Event {
     : eventName = snapshot['eventName'],
       city = snapshot['city'],
       textMessage = snapshot['text'],
-      eventDate = snapshot['eventDate'];
+      eventDate = snapshot['eventDate'],
+      eventUrl = snapshot['eventUrl'];
 
   factory Event.fromJson(Map<String, dynamic> json) => new Event(
     eventName: json["event_name"],
