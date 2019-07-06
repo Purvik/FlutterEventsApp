@@ -25,6 +25,9 @@ This Project is made from FlutterBootCamp Week 3 Workshop day. This is built fro
 
   This class contains a `FutureBuilder` with parameter of `List<Events>` waiting for the response to be arrived from `getEvents()` method of `services/api_services.dart` class. Once the response is available, `ListView.builder` will get use this response to display information of each `Event` by passing it (each `Event` object) to `EventCard` class (`EventCard.dart` file). `EventCard` is like a component that returns a view by mapping `Event` object parameters to display at proper place.
   
+* lib/services/api_services.dart
+  This class contains method name `getEvents()` which makes an API `GET` call and retrieve `JSON` response from the URL end. The return type of this method is `Future<List<Event>>` that is because in API response there'll be a `JSON Array` containing of `Event` list. Inside the method `String` url is declared which is called using the `get` call of `http` class. Retrieved `JSON` will be parsed to `List<Event>`by the method `eventFromJson()` method of `Event` class declared at `lib\modal\Event.dart` class.
+  As we notice methos `getEvents()` must wait for the response to be arrvived before parsing from `eventFromJson()` method. 
 
 ## Getting Started
 
